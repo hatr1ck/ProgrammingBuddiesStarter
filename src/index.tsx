@@ -10,7 +10,7 @@ let reducer1 = (
   state = ["React", "React-Router", "SCSS", "Bootstrap", "Redux", "Typescript"],
   action: any
 ) => {
-  if (action.type == "ADD") {
+  if (action.type === "ADD") {
     return [...state, action.payload];
   }
   return state;
