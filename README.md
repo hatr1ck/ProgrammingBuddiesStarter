@@ -39,7 +39,7 @@ A: You can find something very basic to do, like a navbar, or change someones cs
 
 Q: How close I should stick to the tech stack.
 
-A: If you want to add new library you should ask other, but if you hate TypeScript or SCSS (lime me), you can just do things in vanilla react/js/css
+A: If you want to add new library you should ask others, but if you hate TypeScript or SCSS (lime me), you can just do things in vanilla react/js/css
 
 
 **WhoAmI:**
