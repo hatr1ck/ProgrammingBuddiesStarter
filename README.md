@@ -10,6 +10,7 @@ You landed on a CodingBuddies() community project. Currently we working on a Dis
 **Links:**
 
 [Discord](https://discord.gg/DbY7Fb846y)
+
 [Netlify live link](https://confident-brattain-8532df.netlify.app/)
 
 **Reasons behind:**
