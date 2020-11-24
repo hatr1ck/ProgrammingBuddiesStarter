@@ -32,24 +32,24 @@ You landed on a CodingBuddies() community project. Currently we working on a Dis
 
 **FAQ:**
 
-    Q: What if I am new to web development.
+Q: What if I am new to web development.
 
-    A: You can find something very basic to do, like a navbar, or change someones css color if it is a little of, it's all good.
+A: You can find something very basic to do, like a navbar, or change someones css color if it is a little of, it's all good.
 
 
-    Q: How close I should stick to the tech stack.
+Q: How close I should stick to the tech stack.
 
-    A: If you want to add new library you should ask other, but if you hate TypeScript or SCSS (lime me), you can just do things in vanilla react/js/css
+A: If you want to add new library you should ask other, but if you hate TypeScript or SCSS (lime me), you can just do things in vanilla react/js/css
 
 
 **WhoAmI:**
 
-    I am wannabe web-dev who tired of joining groups on reddit/discord where people just post their bio with intentions and receive silence after.
+I am wannabe web-dev who tired of joining groups on reddit/discord where people just post their bio with intentions and receive silence after.
 
 
 **WhoIAmNot:**
 
-    Moses who can guide everyone to what they should do, I am a beginner, and I can't help everyone, I just make an initiative and hope we can make something from it.
+Moses who can guide everyone to what they should do, I am a beginner, and I can't help everyone, I just make an initiative and hope we can make something from it.
 
 
 **Rules**:
