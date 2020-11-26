@@ -46,5 +46,5 @@ Moses who can guide everyone to what they should do, I am a beginner, and I can'
 
 **Rules**:
 
-1. Don't be an a\*\*.
+1. Don't be an ass.
 2. Keep thing live and open, chat, ask, help others.
