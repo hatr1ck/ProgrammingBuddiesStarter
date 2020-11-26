@@ -1,0 +1,13 @@
+.navigationSecond {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.linkFromNav {
+  color: grey;
+  padding: 10px;
+}
+.linkFromNav:hover {
+  color: rgb(43, 41, 41);
+}
