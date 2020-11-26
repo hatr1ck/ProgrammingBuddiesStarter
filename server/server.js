@@ -1,22 +1,17 @@
 const express = require("express");
-const app = express();
-const port = 4000;
 const mongoose = require("mongoose");
+const passport = require("passport");
+const keys = require("./config/keys");
 require("./schemas/userSchema.js");
+require("./services/passport");
 
-mongoose
-  .connect(
-    "mongodb://ProgrammingBuddies:ProgrammingBuddies1@ds231517.mlab.com:31517/gas",
-    { useNewUrlParser: true, useUnifiedTopology: true }
-  )
-  .then(() => {
-    console.log("connected to db");
-  });
+const PORT = 4000;
 
-app.get("/", (req, res) => {
-  res.send("Hello World");
-});
+mongoose.connect(keys.mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
-});
+const app = express();
+
+// pass app into authRoutes arrow function
+require("./routes/authRoutes")(app);
+
+app.listen(PORT);
