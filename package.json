@@ -1,0 +1,26 @@
+{
+  "name": "programmingbuddiesstarter",
+  "version": "1.0.0",
+  "description": "Hello! You landed on a CodingBuddies() community project. Currently we working on a Discord clone with MERN stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd server && nodemon server.js",
+    "start": "concurrently -n 'server, client' -c 'green,red' \" npm run backend\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddySantos07/ProgrammingBuddiesStarter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EddySantos07/ProgrammingBuddiesStarter/issues"
+  },
+  "homepage": "https://github.com/EddySantos07/ProgrammingBuddiesStarter#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
