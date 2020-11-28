@@ -1,4 +1,110 @@
 @import "../../colors.scss";
 .navbarFirst {
   background-color: $prime-color !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.navbarLogo {
+  margin: 1px 0 0 14px;
+  flex: 1;
+}
+.navbarFirst__element {
+  user-select: none;
+  flex: 2;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+}
+.navbarFirst__element:hover {
+  color: white;
+}
+
+.navbarFirst__element:nth-child(6) {
+  flex: 10;
+}
+
+.navbarFirstMenu:nth-child(7) {
+  flex: 1;
+}
+
+.arrow__up {
+  position: absolute;
+  top: 35px;
+  margin-left: 5px;
+  animation: arrow_in 0.2s forwards;
+}
+.arrow__up__away {
+  position: absolute;
+  top: 35px;
+  margin-left: 5px;
+  animation: arrow_away 0.2s forwards;
+}
+@keyframes arrow_away {
+  0% {
+    top: 35px;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 25px;
+  }
+}
+@keyframes arrow_in {
+  0% {
+    opacity: 0;
+    top: 25px;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 35px;
+  }
+}
+
+.arrow__down {
+  margin-left: 6px;
+  top: 35px;
+  position: absolute;
+  transform: rotate(180deg);
+  animation: arrow_in1 0.2s forwards;
+}
+
+.arrow__down__away {
+  transform: rotate(180deg);
+  margin-left: 6px;
+  top: 35px;
+  position: absolute;
+  animation: arrow_away2 0.2s forwards;
+}
+
+@keyframes arrow_away2 {
+  0% {
+    top: 35px;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 45px;
+  }
+}
+@keyframes arrow_in1 {
+  0% {
+    opacity: 0;
+    top: 45px;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 35px;
+  }
 }
