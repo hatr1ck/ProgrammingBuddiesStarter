@@ -86,7 +86,7 @@ export default function NavBarFirst() {
           src={arrow}
         />
       </a>
-      <input className="navbarFirst__element" />
+      <input className="navbarFirst__element" id="navbarFirst__element_inputField" placeholder="Search" /> 
       <a onClick={triggerArrow4} className="navbarFirst__element">
         Sign
         <img

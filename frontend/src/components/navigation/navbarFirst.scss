@@ -19,9 +19,13 @@
   cursor: pointer;
   color: white;
 }
-.navbarFirst__element:hover {
+.navbarFirst__element {
   color: white;
 }
+
+// #navbarFirst__element_inputField {
+  
+// }
 
 .navbarFirst__element:nth-child(6) {
   flex: 10;
