@@ -19,13 +19,13 @@
   cursor: pointer;
   color: white;
 }
-.navbarFirst__element {
+.navbarFirst__element:hover {
   color: white;
 }
 
-// #navbarFirst__element_inputField {
-  
-// }
+#navbarFirst__element_inputField {
+  color: black;
+}
 
 .navbarFirst__element:nth-child(6) {
   flex: 10;
