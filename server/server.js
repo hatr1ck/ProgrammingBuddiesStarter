@@ -1,22 +1,32 @@
 const express = require("express");
-const app = express();
-const port = 4000;
 const mongoose = require("mongoose");
+const cookieSession = require("cookie-session");
+const passport = require("passport");
+const keys = require("./config/keys");
+const devKeys = require("./config/dev");    // Need to figure out how this will work for collaborating
 require("./schemas/userSchema.js");
+require("./services/passport");
 
-mongoose
-  .connect(
-    "mongodb://ProgrammingBuddies:ProgrammingBuddies1@ds231517.mlab.com:31517/gas",
-    { useNewUrlParser: true, useUnifiedTopology: true }
-  )
-  .then(() => {
-    console.log("connected to db");
-  });
+const PORT = 4000;
 
-app.get("/", (req, res) => {
-  res.send("Hello World");
-});
+// Got warning to add retryWrites property
+mongoose.connect(keys.mongoURI, { useNewUrlParser: true, useUnifiedTopology: true, retryWrites: false});
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
-});
+const app = express();
+
+// Set up cookies for tracking googleid
+app.use(
+  cookieSession({
+      maxAge: 30 * 24 * 60 * 60 * 1000,           // amount time cookie stays valid befor needing a new one
+      keys: [devKeys.cookieKey]                      // Pull from config.keys, need an array
+  })
+)
+
+// Tell app to use the cookie keys
+app.use(passport.initialize());
+app.use(passport.session());
+
+// pass app into authRoutes arrow function
+require("./routes/authRoutes")(app);
+
+app.listen(PORT);
