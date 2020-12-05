@@ -1,5 +1,5 @@
 Hello!
-You landed on a CodingBuddies() community project. Currently we working on a Discord clone with MERN stack.
+You landed on a ProgrammingBuddies() community project. Currently we working on a Target clone with MERN stack.
 
 **Setup:**
 
@@ -11,6 +11,8 @@ You landed on a CodingBuddies() community project. Currently we working on a Dis
 
 [Discord](https://discord.gg/DbY7Fb846y)
 
+[Trello](https://trello.com/b/Xl0BgMSj/project-ecommerce)
+
 [Netlify live link](https://confident-brattain-8532df.netlify.app/)
 
 **Reasons behind:**
@@ -21,10 +23,10 @@ You landed on a CodingBuddies() community project. Currently we working on a Dis
 
 **How it works:**
 
-1. Compare original Discord app vs the one we have in this repo.
+1. Compare original Target site vs the one we have in this repo.
 2. Find something that is missing and what you would like to make.
-3. You tell others in [Discord](https://discord.gg/DbY7Fb846y) what part of the project you would like to claim.
-4. If nobody already doing this same thing you can work on it.
+3. You tell others in [Trello](https://trello.com/b/Xl0BgMSj/project-ecommerce) what part of the project you would like to claim.
+4. If nobody already doing this same thing you can start working on it.
 
 **FAQ:**
 
@@ -34,7 +36,7 @@ A: You can find something very basic to do, like a navbar, or change someones cs
 
 Q: How close I should stick to the tech stack.
 
-A: If you want to add new library you should ask others, but if you hate TypeScript or SCSS (lime me), you can just do things in vanilla react/js/css
+A: If you want to add new library you should ask others, but if you hate TypeScript or SCSS for example, you can just do things in vanilla react/js/css
 
 **WhoAmI:**
 
