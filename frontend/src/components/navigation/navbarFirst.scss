@@ -22,13 +22,12 @@
 .navbarFirst__element:hover {
   color: white;
 }
-
-.navbarFirst__element:nth-child(6) {
-  flex: 10;
+.navbarFirst__element:nth-child(5) {
+  flex: 3;
 }
 
-.navbarFirstMenu:nth-child(7) {
-  flex: 1;
+.navbarFirst__element:nth-child(6) {
+  flex: 6;
 }
 
 .arrow__up {
@@ -108,3 +107,38 @@
     top: 35px;
   }
 }
+
+.navbarFirstSubmenu {
+  position: absolute;
+  background-color: white;
+  border: 5px;
+  border-radius: 1%;
+  top: 80px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.navbarFirstSubmenuElement {
+  color: #33334c;
+  width: 300px;
+  padding: 5px;
+  margin: 5px;
+  text-align: left;
+  border-bottom: 1px solid #33334c;
+  font-weight: 400;
+}
+
+.navbarFirstSubmenuElement:active {
+  color: #33334c;
+}
+.navbarFirstSubmenuElement:hover {
+  color: #33334c;
+}
+.main__container {
+  filter: grayscale(50%);
+}
+
+// navigationSecond
+
+// navbarFirst
+// main__container

@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 export default function NavBarSecond() {
   return (
-    <div className="navigationSecond">
+    <div className="navbarSecond">
       <Link className="linkFromNav" to="/gift-registry">
         Registry
       </Link>
-      <Link className="linkFromNav" to="/weekly-add">
+      <Link className="linkFromNav" to="/weekly-ad">
         Weekly Ad
       </Link>
       <Link className="linkFromNav" to="/redcard/about">
