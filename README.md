@@ -2,7 +2,8 @@ Hello!
 You landed on a ProgrammingBuddies() community project. Currently we working on a Target clone with MERN stack.
 
 **We are learning here, so no pixel perfect and sutff, close enough is enough. We start from more surface stuff (like home page, and basic routes), and go from it**
-**The motive is to have something to show, like "I did that with the bunch of other people", the exact copy will take too long time, do what you can, no pressure.**
+
+**The motive is to have something to show, like "I did that with the bunch of other people", the exact copy will take too much time, do what you can, no pressure.**
 
 **DM hatr1ck on discord if you need access to this repo**
 
