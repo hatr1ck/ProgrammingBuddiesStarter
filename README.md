@@ -1,6 +1,8 @@
 Hello!
 You landed on a ProgrammingBuddies() community project. Currently we working on a Target clone with MERN stack.
 
+**We are learning here, so no pixel perfect and sutff, close enough is enough**
+
 **Setup:**
 
 ### `npm ci`
