@@ -29,6 +29,9 @@ You landed on a ProgrammingBuddies() community project. Currently we working on 
 4. If nobody already doing this same thing you can start working on it.
 
 **FAQ:**
+Q: Can I get access to repo?
+
+A: DM hatr1ck on discord.
 
 Q: What if I am new to web development.
 
