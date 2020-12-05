@@ -30,6 +30,10 @@ You landed on a ProgrammingBuddies() community project. Currently we working on 
 
 **FAQ:**
 
+Q: How close to original should it be.
+
+A: Not pixel perfect for sure, but close enough.
+
 Q: Can I get access to repo?
 
 A: DM hatr1ck on discord.
